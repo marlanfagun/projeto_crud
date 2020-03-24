@@ -43,7 +43,7 @@ include_once 'includes/message.php'
                     <div id="modal<?php echo $dados['id']; ?>" class="modal">
                         <div class="modal-content">
                         <h4>Atenção!</h4>
-                        <p>Deseja realmente deletar esse registro? Pense Bem</p>
+                        <p>Deseja realmente deletar esse registro?</p>
                         </div>
                         <div class="modal-footer">
                         <form action="php_action/delete.php" method="POST">
